@@ -2,27 +2,32 @@ html {
     zoom: 70%;
 }
 
-html ::selection, 
-html::selection {
+
+.html-autores h1 {
+    text-align: center;
+    font-size: 90px;
+    color: rgb(96,116,175);
+    padding-bottom: 100px;
+    font-weight: 600;
+}
+
+.html-autores::selection,
+.html-autores ::selection {
     background-color: rgb(96,116,175);
 }
 
-dt, dd, p {
-    text-align: justify;
-    font-size: 45px;
-}
-
-.html-autores {
-    background-image: url(/imgs/autores.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+.html-autores h2 {
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+    margin-left: 550px;
+    margin-right: 550px;
 }
 
 main {
-    padding-top: 200px;
-    margin-left: 550px;
-    margin-right: 550px;
+    padding-top: 50px;
 }
 
 main div {
@@ -42,26 +47,131 @@ main img {
 
 .autores {
     border-radius: 30px;
-    background-color: rgb(96,116,175, 0.6);
-    border: 5px solid black;
+    background-color: rgb(96,116,175);
+    transition: all .2s ease-in-out;
+    margin-right: 550px;
+    margin-left: 550px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.autores img{
+main img:hover {
+    transform: scale(1.02);
+}
+.autores img {
     width: 300px;
 }
 
-.autores p {
-    float: right;
-    padding-right: 36%;
-    padding-top: 4%;
-    
-}
 
 /* */
 
+.html-bibliografia {
+    background-image: url(/imgs/wallpaperbetter.com_1920x1080.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 .html-bibliografia main {
     align-items: center;
+}
+
+main {
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 90px;
+    color: whitesmoke;
+    padding-bottom: 100px;
+}
+
+.sites,.fontes {
+    padding-right: 30px;
+}
+
+.fontes, .text {
+    font-size: 40px;
+    text-align: left;
+}
+
+#titulos {
+    padding-right: 60px;
+    text-align: center;
+    font-size: 60px;
+}
+
+.sites {
+    font-size: 50px;
+}
+
+.ut {
+    padding-left: 21px;
+}
+
+#site1, #site2, #site3, #site4 {
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main p {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+h1::selection {
+    color: whitesmoke;
+    background-color: rgb(45,77,65);
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+main .fontes p:hover {
+    transition: .5s;
+    transform: scale(1.05);
+}
+
+table {
+    border-bottom: 5px;
+    border-radius: 40px;
+    padding: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(91,120,90);
+}
+
+table::selection, 
+table ::selection {
+    background-color: rgb(45,77,65);
+    color: rgb(169, 177, 201);
+}
+
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(65,87,152);
 } 
 
-td {
-    font-size: 50px;
+
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: rgb(65,87,152);
+    font-size: 40px;
+    text-align: center;
 }

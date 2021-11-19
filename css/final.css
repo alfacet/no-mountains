@@ -30,6 +30,11 @@ main {
     padding-top: 50px;
 }
 
+.html-autores main::selection, 
+.html-autores main ::selection {
+    background-color: rgb(138, 151, 187);
+}
+
 main div {
     margin-bottom: 50px;
 }

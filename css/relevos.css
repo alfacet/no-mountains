@@ -1,0 +1,229 @@
+html {
+    zoom: 70%;
+    margin-bottom: 70px;
+}
+
+html ::selection {
+    background-color: rgb(96,116,175);
+}
+
+main {
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+h1 {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 90px;
+    color: rgb(96,116,175);
+    padding-bottom: 10px;
+}
+
+h1::selection,
+figcaption::selection {
+    color: whitesmoke;
+}
+
+.intro-montanhas h2 {
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-top: 90px;
+    padding-bottom: 40px;
+    text-align: center;
+    font-size: 60px;
+    color: black;
+}
+
+p, .meio-planaltos li {
+    text-align: justify;
+    font-size: 45px;
+}
+
+.mario {
+    bottom: 25px;
+    right: 25px;
+    width: 200px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+
+.mario:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+}
+
+.html-montanhas figure {
+    margin-top: 0px;
+    float: right;
+    width: 550px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+.html-montanhas figure img {
+    width: 550px;
+}
+
+.html-montanhas figure figcaption {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 45px;
+    text-align: left;
+}
+
+#spandois h3 {
+    text-align: right;
+}
+
+.meio-montanhas div {
+    border-left: 10px solid transparent;
+    border-left-color: #1b1b1b;
+    padding-left: 40px;
+
+}
+
+.meio-montanhas div:hover {
+    transition: 0.8s;
+    border-left-color: rgb(65,87,152);
+}
+
+.end h2 {
+    padding-top: 100px;
+}
+
+.end p {
+    text-align: center;
+}
+
+iframe {
+    width: 1200px;
+    border-radius: 20px;
+}
+
+.video {
+    border-radius: 20px;
+    height: 850px;
+    width: 1300px;
+    padding-top: 25px;
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto; 
+    background-color: rgb(65,87,152);
+}
+
+/* */
+
+.intro-planicies {
+    padding-bottom: 20px;
+}
+
+.meio-planicies #mon1 {
+    width: 1099px;
+    float: right;
+    margin-left: 100px;
+}
+
+.meio-planicies figure img {
+    border-radius: 40px;
+    text-align: center;
+    width: 1100px;
+    align-items: center;
+}
+
+
+.meio-planicies figure figcaption {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.pantanal figure {
+    padding-top: 90px;
+    align-items: center;
+    text-align: center;
+    
+}
+
+#planicies-fim1,
+#planicies-fim2 {
+    border-left: 10px solid transparent;
+    border-left-color: #1b1b1b;
+    padding-left: 40px;
+}
+
+.fim-planicies #planicies-fim1:hover,
+.fim-planicies #planicies-fim2:hover {
+    transition: 0.8s;
+    border-left-color: rgb(65,87,152);
+}
+
+/* */
+
+.intro-planaltos figure {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.intro-planaltos figure img {
+    border-radius: 40px;
+}
+
+.intro-planaltos figure figcaption {
+    text-align: center;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.meio-planaltos div {
+    border-radius: 40px;
+    padding: 40px;
+    background-color: rgb(174, 184, 211);
+    transition: .6s;
+}
+
+.meio-planaltos div:hover {
+    background-color: rgb(138, 151, 187);
+}
+
+.fim-planaltos h3 {
+    font-size: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+
+
+
+/*scrollbar*/
+
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(65,87,152);
+} 
+
+/*-*/
+
+@media (max-width: 1900px) {
+    html {
+        zoom: 45%;
+    }
+}

@@ -1,0 +1,139 @@
+html {
+    zoom: 85%;
+}
+
+main {
+    color: white;
+}
+
+header {
+    margin-top: 0%;
+}
+
+header h1 {
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    margin-left: 4%;
+    text-align: center;
+    font-size: 60px;
+}
+
+header p {
+    color: black;
+    margin-bottom: 0%;
+    margin-left: 4%;
+    text-align: center;
+    font-size: 20px;
+}
+
+html {
+    background-image: url(imgs/fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    
+}
+
+.nav_inicial dl li:hover {
+    transition: transform .2s;
+    transform: scale(1.2);
+
+}
+
+a {
+    color: black;
+}
+
+a:visited{
+    color: black;
+}
+
+.nav_inicial {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 3%;
+    bottom: 2%;
+}
+
+dl {
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
+
+dl a {
+    display: inline;
+}
+
+dl li {
+    display: inline-block;
+}
+
+a li {
+    margin-top: 0%;
+    margin-left: 2%;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 0.5%;
+    display: inline-block;
+    width: 170px;
+
+}
+
+.nav_inicial img {
+    height: 170px;
+    width: 170px;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+
+/*for all*/
+
+a {
+    text-decoration: none;
+}
+
+html ::selection {
+    background-color: rgb(96,116,175);
+    color: whitesmoke;
+
+}
+
+ul{
+    list-style-type: none;
+}
+
+/*scrollbar - inovação - encontrei no stackoverflow*/
+
+::-webkit-scrollbar-track {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar {
+    width: 9px;
+
+  }
+
+::-webkit-scrollbar-thumb {
+    background: rgb(65,87,152);
+} 
+
+pre {
+    padding-bottom: 1%;
+}
+a img:hover {
+    border: solid 2px;
+    padding: 0.07px;
+    border-color: rgb(96,116,175);
+}
+
+
+@media (max-width: 1400px) {
+    html {
+        zoom: 60%
+    }
+}

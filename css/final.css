@@ -1,0 +1,67 @@
+html {
+    zoom: 70%;
+}
+
+html ::selection, 
+html::selection {
+    background-color: rgb(96,116,175);
+}
+
+dt, dd, p {
+    text-align: justify;
+    font-size: 45px;
+}
+
+.html-autores {
+    background-image: url(/imgs/autores.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+main {
+    padding-top: 200px;
+    margin-left: 550px;
+    margin-right: 550px;
+}
+
+main div {
+    margin-bottom: 50px;
+}
+
+
+@media (max-width: 1900px) {
+    html {
+        zoom: 45%;
+    }
+}
+
+main img {
+    width: 300px;
+}
+
+.autores {
+    border-radius: 30px;
+    background-color: rgb(96,116,175, 0.6);
+    border: 5px solid black;
+}
+.autores img{
+    width: 300px;
+}
+
+.autores p {
+    float: right;
+    padding-right: 36%;
+    padding-top: 4%;
+    
+}
+
+/* */
+
+.html-bibliografia main {
+    align-items: center;
+} 
+
+td {
+    font-size: 50px;
+}

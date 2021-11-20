@@ -1,19 +1,19 @@
+    /*Parte Um*/
+    
     $('.btn').click(function() {
         $('.btn').toggleClass("click");
-        $('.sidebar').toggleClass("show");
+        $('nav').toggleClass("show");
     });
 
-    /*Parte Um*/
+    /*Parte Dois*/
 
     $('.relv-btn').click(function() {
         $('nav ul .relv-mostrar').toggleClass("show");
         $('nav ul .relv').toggleClass("rotate");
     });
 
-    /*Parte Dois*/
+    /*Parte Três*/
 
     $('nav ul li').click(function() {
         $(this).addClass("active").siblings().removeClass("active");
     });
-
-    /*Parte Três*/
